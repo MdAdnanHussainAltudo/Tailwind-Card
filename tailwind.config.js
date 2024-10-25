@@ -1,11 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}", // Adjust this path based on your project structure
-  ],
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   safelist: [
-    // Shadow classes
     "hover:shadow-html",
     "hover:shadow-css",
     "hover:shadow-javascript",
@@ -22,7 +18,7 @@ export default {
     "hover:shadow-django",
     "hover:shadow-springboot",
     "hover:shadow-laravel",
-    // Background classes
+
     "hover:bg-html",
     "hover:bg-css",
     "hover:bg-javascript",
@@ -44,22 +40,22 @@ export default {
   theme: {
     extend: {
       boxShadow: {
-        html: "0 2px 10px #E44D26", // HTML5
-        css: "0 2px 10px #1572B6", // CSS3
-        javascript: "0 2px 10px #F7DF1E", // JavaScript
-        typescript: "0 2px 10px #007ACC", // TypeScript
-        react: "0 2px 10px #61DAFB", // React
-        nextjs: "0 2px 10px #000000", // Next.js
-        bootstrap: "0 2px 10px #563D7C", // Bootstrap
-        tailwindcss: "0 2px 10px #38B2AC", // Tailwind CSS
-        nodejs: "0 2px 10px #8CC84B", // Node.js
-        python: "0 2px 10px #306998", // Python
-        java: "0 2px 10px #007396", // Java
-        php: "0 2px 10px #4F5B93", // PHP
-        expressjs: "0 2px 10px #000000", // Express.js
-        django: "0 2px 10px #092E20", // Django
-        springboot: "0 2px 10px #6DB33F", // Spring Boot
-        laravel: "0 2px 10px #FF2D20", // Laravel
+        html: "0 2px 10px #E44D26",
+        css: "0 2px 10px #1572B6",
+        javascript: "0 2px 10px #F7DF1E",
+        typescript: "0 2px 10px #007ACC",
+        react: "0 2px 10px #61DAFB",
+        nextjs: "0 2px 10px #000000",
+        bootstrap: "0 2px 10px #563D7C",
+        tailwindcss: "0 2px 10px #38B2AC",
+        nodejs: "0 2px 10px #8CC84B",
+        python: "0 2px 10px #306998",
+        java: "0 2px 10px #007396",
+        php: "0 2px 10px #4F5B93",
+        expressjs: "0 2px 10px #000000",
+        django: "0 2px 10px #092E20",
+        springboot: "0 2px 10px #6DB33F",
+        laravel: "0 2px 10px #FF2D20",
       },
       colors: {
         html: "#E44D26",
